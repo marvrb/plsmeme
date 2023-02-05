@@ -6,11 +6,6 @@
 <p align="center">Just post your memes in the /meme folder and your ready to go.<p/>
 
 
-<br>
-
-
-<img src="assets/meme_embed.png">
-
 
 
 
