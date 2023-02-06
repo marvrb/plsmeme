@@ -15,3 +15,8 @@ TOKEN=YOUR_TOKEN_HERE
 (replace "YOUR_TOKEN_HERE" with your own bot token)
 ```
 
+<br>
+
+
+## To-Do's:
+ - [ ] 📩 Upload channel
