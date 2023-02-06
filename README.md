@@ -19,4 +19,4 @@ TOKEN=YOUR_TOKEN_HERE
 
 
 ## To-Do's:
- - [ ] 📩 Upload channel
+ - [x] 📩 Upload channel
