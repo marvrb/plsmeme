@@ -7,6 +7,7 @@
 
 <br>
 
+
 **.env (config)**
 ```shell
 
@@ -34,6 +35,15 @@ TOKEN=YOUR_TOKEN_HERE
 
 ```
 
+<br>
+
+## Features:
+
+|Feature| Explanation |
+|--|--|
+| upload | let's you upload your own memes over a discord channel directly into the **/meme** older|
+
+<br>
 
 ## To-Do's:
  - [x] 📩 Upload channel
