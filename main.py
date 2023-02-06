@@ -25,7 +25,6 @@ class aclient(commands.Bot):
         print(f"{Fore.MAGENTA}{self.user}{Style.RESET_ALL} started!")
         print(f"My Github profile: {Fore.CYAN}https://github.com/marvrb{Style.RESET_ALL}")
 
-
 client = aclient()
 client.run(os.getenv("TOKEN"))
 
