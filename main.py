@@ -8,9 +8,10 @@ from colorama import Fore, Back, Style
 
 load_dotenv()
 
+
 class aclient(commands.Bot):
     def __init__(self) -> None:
-        super().__init__(intents=discord.Intents.all(), command_prefix='.')
+        super().__init__(intents=discord.Intents.all(), command_prefix=".")
 
         self.initial = [
             "cogs.meme",
@@ -23,10 +24,10 @@ class aclient(commands.Bot):
 
     async def on_ready(self):
         print(f"{Fore.MAGENTA}{self.user}{Style.RESET_ALL} started!")
-        print(f"My Github profile: {Fore.CYAN}https://github.com/marvrb{Style.RESET_ALL}")
+        print(
+            f"My Github profile: {Fore.CYAN}https://github.com/marvrb{Style.RESET_ALL}"
+        )
 
 
 client = aclient()
 client.run(os.getenv("TOKEN"))
-
-
