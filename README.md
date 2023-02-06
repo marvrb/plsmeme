@@ -17,6 +17,23 @@ TOKEN=YOUR_TOKEN_HERE
 
 <br>
 
+cogs/meme.py
+```shell
+
+   def __init__(self, client):
+       self.client = client
+       self.path = r"memes"  # change this if you change the name of the meme directory
+       self.extensions = [
+           ".jpg",
+           ".png",
+           ".jpeg",
+       ]  # Sets the allowed file extensions for discord
+       self.upload_channel_id = "YOUR_CHANNEL_ID_HERE"
+       
+   (CHANGE THE "self.upload_channel_id" ELSE IT WILL NOT WORK)
+
+```
+
 
 ## To-Do's:
  - [x] 📩 Upload channel
