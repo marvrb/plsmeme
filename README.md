@@ -7,7 +7,7 @@
 
 <br>
 
-.env (config)
+**.env (config)**
 ```shell
 
 TOKEN=YOUR_TOKEN_HERE
@@ -17,7 +17,7 @@ TOKEN=YOUR_TOKEN_HERE
 
 <br>
 
-cogs/meme.py
+**cogs/meme.py**
 ```shell
 
    def __init__(self, client):
