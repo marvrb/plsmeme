@@ -13,8 +13,6 @@ class MemeCog(commands.Cog):
         self.extensions = [".jpg", ".png", ".jpeg"] # Sets the allowed file extensions for discord
 
 
-
-
     @app_commands.command(name='meme', description="shows you a random meme from your collection")
     async def meme(self, interaction:discord.Interaction):
 
@@ -34,11 +32,6 @@ class MemeCog(commands.Cog):
 
         await interaction.channel.typing()
         await interaction.response.send_message(embed=e, file=file)       
-
-
-        
-            
-
 
 
 async def setup(client):
