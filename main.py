@@ -28,6 +28,5 @@ class aclient(commands.Bot):
             f"My Github profile: {Fore.CYAN}https://github.com/marvrb{Style.RESET_ALL}"
         )
 
-
 client = aclient()
 client.run(os.getenv("TOKEN"))
