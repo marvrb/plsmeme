@@ -5,9 +5,13 @@
 
 <p align="center">Just post your memes in the /meme folder and your ready to go.<p/>
 
+<br>
 
+.env (config)
+```shell
 
+TOKEN=YOUR_TOKEN_HERE
 
-
-
+(replace "YOUR_TOKEN_HERE" with your own bot token)
+```
 
