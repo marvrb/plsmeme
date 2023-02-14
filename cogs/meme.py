@@ -19,9 +19,6 @@ class MemeCog(commands.Cog):
         ]  # Sets the allowed file extensions for discord
         self.upload_channel_id = "YOUR_CHANNEL_ID_HERE"
 
-
-
-
     @app_commands.command(name='meme', description="shows you a random meme from your collection")
     async def meme(self, interaction:discord.Interaction):
 
