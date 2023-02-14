@@ -17,6 +17,7 @@ class MemeCog(commands.Cog):
             ".png",
             ".jpeg",
         ]  # Sets the allowed file extensions for discord
+        self.upload_channel_id = "YOUR_CHANNEL_ID_HERE"
 
 
 
@@ -41,7 +42,17 @@ class MemeCog(commands.Cog):
         await interaction.response.send_message(embed=e, file=file)
 
 
-        
+    @commands.Cog.listener()
+    async def on_message(self, message: discord.Message):
+        if message.channel.id == self.upload_channel_id and message.content == "upload":
+            for a in message.attachments:
+                if a.filename.endswith(tuple(self.extensions)):
+                    await a.save(f"memes/{a.filename}")
+                    await message.add_reaction("✅")
+                else:
+                    await message.channel.send(
+                        f"**This file format is not supported, right now!**"
+                    )
             
 
 
